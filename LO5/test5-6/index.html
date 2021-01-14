@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window onLoad Event</title>
+    <style>
+        * {
+            font-size: 15px;
+            font-family: arial;
+        }
+
+        html {
+            background: #ddd;
+        }
+        body {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #content {
+            padding: 10px;
+            border-radius: 5px;
+            background: white;
+            margin-bottom: 5px;
+            max-width: 300px;
+            transition: 0.2s ease-in-out;
+        }
+
+        div {
+            height: 197px;
+            overflow: hidden;
+        }
+
+        .open {
+            height: 404px;
+            overflow: visible;
+        }
+
+        #show-more {
+            font-size: 17px;
+            color: white;
+            background: skyblue;
+            padding: 10px 20px;
+            width: 100px;
+        }
+
+    </style>
+    <!-- <script type="text/javascript" src="test5.js"></script>
+    <script type="text/javascript" src="test6.js"></script> -->
+</head>
+<body>
+    <div id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam ad eveniet sunt accusantium provident voluptatum ea ipsam eligendi soluta beatae nihil aut, unde aliquam culpa? Temporibus dolore tempore recusandae. <br/>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minima iure neque eveniet quam nostrum nobis at sequi quas, modi distinctio beatae eum. Fugiat, voluptatem? Consectetur impedit alias enim cumque! <br/>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aut ex ipsa ab autem, aperiam placeat adipisci sed reprehenderit rerum, obcaecati natus corrupti similique in cupiditate reiciendis provident? Blanditiis, ipsam?<br/>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eius quam sapiente dolor vel voluptates id minima laborum iste reprehenderit laudantium, voluptas autem aspernatur quibusdam deleniti necessitatibus ullam explicabo culpa.</div>
+    <a id="show-more">Show More</a>
+    
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Hello, World</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			html {
+				font-family: arial;
+			}
+
+			header {
+				width: 100%;
+				text-align: center;
+				padding: 20px 0;
+			}
+
+			header h3 {
+				color: white;
+				font-weight: normal;
+			}
+
+			nav {
+				display: fixed;
+				height: 40px;
+				width: 100%;
+				background: black;
+			}
+
+			nav ul {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				line-height: 40px;
+				box-sizing: border-box;
+				padding: 0 10px;
+				height: 100%;
+				border-top: 2px solid white;
+			}
+			
+			li {
+				list-style: none;
+				color: white;
+				text-transform: uppercase;
+			}
+
+			li:last-child {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				padding: 12px 0;
+				box-sizing: border-box;
+			}
+
+			li:last-child div {
+				height: 2px;
+				width: 30px;
+				background: white;
+			}
+
+			.content {
+				position: absolute;
+				top: 0;
+				height: 60vh;
+				width: 100%;
+				background: #14234c;
+				z-index: -1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding: 0 10px;
+				box-sizing: border-box;
+			}
+
+			.content h2 {
+				color: white;
+				font-weight: normal;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body class="the-net-ninja-homepage">
+		<header>
+			<h3>THEBOININJA</h3>
+		</header>
+		<nav>
+			<ul>
+				<li>Menu</li>
+				<li>
+					<div></div>
+					<div></div>
+					<div></div>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="content"></div>
+		<div class="content" id="background-image">
+			<h2 id="page-title">KUNG FU YOUR NET SKILLS!</h2>
+		</div>
+
+		<div class="links-container">
+			<li>
+				<a href="#" id="test">Subjects</a>
+			</li>
+		</div>
+		<!-- uncomment this one by one -->
+		<!-- <script src="test6.js"></script> -->
+		<!-- <script type="text/javascript" src="test7.js"></script> -->
+		<script type="text/javascript" src="test8.js"></script>
+	</body>
+</html>
